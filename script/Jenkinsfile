@@ -19,7 +19,7 @@ pipeline{
         }
         stage('plan'){
             steps{
-                sh 'terraform plan -var 'ENVIRONMENT=production' -var 'INSTANCE_TYPE=t2.micro' -var 'REGION=us-west-2' -no-color'
+                sh 'terraform plan -no-color'
             }
         }
         
