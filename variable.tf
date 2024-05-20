@@ -1,3 +1,7 @@
+variable "ENVIRONMENT" {
+  
+}
+
 variable "REGION" {
   
 }
